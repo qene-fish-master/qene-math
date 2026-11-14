@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>青魚數學 新版上線</title>
+<style>
+:root{
+  --bg:#eef6f7; --ink:#12343b; --muted:#4f6f76; --accent:#0b7285; --accent-ink:#ffffff; --line:#c5dde1; --warn:#a4452c;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){--bg:#0e1f24; --ink:#e4f1f3; --muted:#9bb8be; --accent:#4cc3d9; --accent-ink:#06222a; --line:#24424a; --warn:#ff9a7a; color-scheme:dark;}
+}
+:root[data-theme="dark"]{--bg:#0e1f24; --ink:#e4f1f3; --muted:#9bb8be; --accent:#4cc3d9; --accent-ink:#06222a; --line:#24424a; --warn:#ff9a7a; color-scheme:dark;}
+*,*::before,*::after{box-sizing:inherit}
+html,body{height:100%;margin:0}
+body{background:var(--bg);color:var(--ink);font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;display:flex;align-items:center;justify-content:center;padding:24px}
+main{max-width:520px;width:100%}
+.old{display:inline-block;font-size:1.1rem;color:var(--warn);text-decoration:line-through;text-decoration-thickness:2px;margin:0 0 12px}
+h1{font-size:clamp(2rem,7vw,3rem);line-height:1.2;margin:0 0 16px;font-weight:900;letter-spacing:.02em}
+p{font-size:1.05rem;line-height:1.8;color:var(--muted);margin:0 0 28px}
+a.link{color:var(--ink);word-break:break-all;text-decoration:underline}
+a.go{display:inline-block;background:var(--accent);color:var(--accent-ink);font-weight:700;font-size:1.15rem;padding:14px 28px;border-radius:999px;text-decoration:none}
+a.go:hover{filter:brightness(1.08)}
+a.go:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
+.url{margin-top:24px;padding-top:16px;border-top:1px solid var(--line);font-size:.9rem;color:var(--muted);word-break:break-all}
+</style>
+</head>
+<body>
+<main>
+  <div class="old">舊版青魚數學</div>
+  <h1>舊版已停止使用，<br>請前往新版</h1>
+  <p>舊版青魚數學已經無法使用。新版本已經上線，請使用下方網址繼續使用。</p>
+  <div class="url">新版網址：<a class="link" href="https://qene-fish-master.github.io/new-qene-math/" target="_blank" rel="noopener">https://qene-fish-master.github.io/new-qene-math/</a></div>
+</main>
+</body>
+</html>
