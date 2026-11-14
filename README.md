@@ -1,5 +1,5 @@
 ## 請使用新版
-｜ vip代碼 ｜
+｜ vip代碼
 ｜ QENE-CU53-WNCN
 ｜ QENE-DYDU-6ANC
 ｜ QENE-75P7-6V9W
