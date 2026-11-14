@@ -1,3 +1,4 @@
+#請使用新版
 vip代碼 ｜
 ｜ QENE-CU53-WNCN
 ｜ QENE-DYDU-6ANC
